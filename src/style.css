@@ -1,0 +1,26 @@
+h1,
+p {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.MainChat {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid grey;
+  margin-bottom: 5px;
+}
+
+.MainChat:hover {
+  background-color: #faf9f6;
+}
+
+.user {
+  background-color: blue;
+  /* float: right; */
+}
+
+.sender {
+  background-color: gray;
+  /* float: left; */
+}
